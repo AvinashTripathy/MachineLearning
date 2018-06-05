@@ -25,7 +25,9 @@ https://arxiv.org/pdf/1606.03657.pdf
 Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
 https://arxiv.org/pdf/1703.10593.pdf
 
+Actual Paper Code Implementation for Fraud Use Case:
 Improved Training of Wasserstein GANs
 https://arxiv.org/pdf/1704.00028.pdf
-
+https://github.com/igul222/improved_wgan_training
+https://github.com/igul222/improved_wgan_training/tree/master/tflib
 
