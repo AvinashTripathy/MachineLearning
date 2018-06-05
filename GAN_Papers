@@ -1,3 +1,6 @@
+Intrduction to GAN:
+https://www.youtube.com/watch?v=RvgYvHyT15E 
+
 Variational Autoencoders (original paper): 
 https://arxiv.org/pdf/1312.6114.pdf
 
@@ -16,5 +19,13 @@ https://github.com/soumith/ganhacks
 eCommerceGAN : A Generative Adversarial Network for E-commerce
 https://arxiv.org/pdf/1801.03244.pdf
 
-Intrduction to GAN:
-https://www.youtube.com/watch?v=RvgYvHyT15E 
+InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets
+https://arxiv.org/pdf/1606.03657.pdf
+
+Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
+https://arxiv.org/pdf/1703.10593.pdf
+
+Improved Training of Wasserstein GANs
+https://arxiv.org/pdf/1704.00028.pdf
+
+
