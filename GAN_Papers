@@ -32,4 +32,5 @@ https://github.com/igul222/improved_wgan_training
 https://github.com/igul222/improved_wgan_training/tree/master/tflib
 
 Data Transformation Into Min_Max
+https://spark.apache.org/docs/2.0.0/api/scala/index.html#org.apache.spark.ml.feature.MinMaxScaler
 http://mail-archives.apache.org/mod_mbox/spark-user/201508.mbox/%3CCA+-aTYeGHEiHQiqOCiK+z+ixPt5dWRgbb4YOti1D_j-M7Y5Ytw@mail.gmail.com%3E
