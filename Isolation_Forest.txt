@@ -1,1 +1,2 @@
 https://github.com/scikit-learn/scikit-learn/blob/a24c8b46/sklearn/ensemble/iforest.py#L229
+https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf
