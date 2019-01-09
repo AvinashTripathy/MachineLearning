@@ -1,2 +1,19 @@
 https://github.com/scikit-learn/scikit-learn/blob/a24c8b46/sklearn/ensemble/iforest.py#L229
 https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf
+
+Isolation Forest: Print Trees
+
+import numpy as np
+from sklearn.ensemble import IsolationForest
+from sklearn import tree
+rng = np.random.RandomState(42)
+X = 0.3 * rng.randn(100, 2)
+X_train = np.r_[X + 2, X - 2]
+# fit the model
+clf = IsolationForest(behaviour='new', max_samples=100, random_state=rng, contamination='auto')
+clf.fit(X_train)
+#Trees are in clf.estimators_. Create dot file (temp.dot) with the tree structure which can be analyzed in order to understand which feature is the most important:
+
+out_file = tree.export_graphviz(clf.estimators_[0], out_file='temp.dot')
+
+
