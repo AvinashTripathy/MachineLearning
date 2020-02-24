@@ -8,11 +8,25 @@ Actual: True vs False
 Reference:
 https://upload.wikimedia.org/wikipedia/commons/2/26/Precisionrecall.svg
 
+
+https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-aa97784ff226
+
 Precision (Hit_Rate): True_Positives/(Selected Elements:Positives)
-The fraction of retrieved documents that are relevant to the query
+The fraction of retrieved documents that are relevant to the query.
+Precision is a valid choice of evaluation metric when we want to be very sure of our prediction. 
+Caveat: For credit default problem being very precise means our model will leave a lot of credit defaulters untouched and hence lose money.
+
 
 Recall (Capture/Coverage): True_Positives/(Relevant Elements)
-The fraction of the relevant documents that are successfully retrieved
+The fraction of the relevant documents that are successfully retrieved.
+Recall is a valid choice of evaluation metric when we want to capture as many positives as possible. For example: If we are building a system to predict if a person has cancer or not, we want to capture the disease even if we are not very sure.
+
+
+Accuracy (TP+TN)/(TP+FP+FN+TN)
+Proportion of true results among the total number of cases examined.
+Valid choice for classification problems which are well balanced and not skewed or No class imbalance. 
+If the target class is very sparse, you will be 99% accurate, but not at all valuable.
+
 
 Multi Label Classification:
 https://medium.com/@gabrielziegler3/multiclass-multilabel-classification-with-xgboost-66195e4d9f2d
